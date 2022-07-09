@@ -30,5 +30,8 @@ Specify the filename
 
 <img src="plots/tuned.json.jpg">
 
+## About
+Visit https://app.tuned.com/t/1337Research/ for profitable systematic trading strategies.
+
 ## License
 Free to use but you must keep the text @1337Research  
