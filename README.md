@@ -1,7 +1,18 @@
 # Tuned plot
-This script will plot your downloaded Tuned backtest data to a chart with stats, equity curve, monthly returns and returns distribution.
+
+This script will plot your downloaded Tuned backtest data to a chart with stats, equity curve, monthly returns and
+returns distribution.
+
+Specify the filename with `--file foo.json` and resample the chart using `--resample W`
+
+The other params can be used to plot vertical lines on the chart to distinguish different testing periods.
+
+## Installation
+
+    pip3 install -r requirements.txt
 
 ## Usage
+
     usage: tuned-plot.py [-h] [--datadir DATADIR] [--plotdir PLOTDIR] [--file FILE] [--oos OOS] [--forward FORWARD] [--live LIVE]
                      [--resample {D,W,M}]
     
@@ -16,6 +27,7 @@ This script will plot your downloaded Tuned backtest data to a chart with stats,
       --resample {D,W,M}  Resample equity curve using pandas period W, M etc
 
 ## Examples
+
 Default usage will plot the data file data/tuned.json to a jpg at plots/tuned.json.jpg
 
     python3 tuned-plot.py
@@ -31,7 +43,9 @@ Specify the filename
 <img src="plots/tuned.json.jpg">
 
 ## About
+
 Visit https://app.tuned.com/t/1337Research/ for profitable systematic trading strategies.
 
 ## License
+
 Free to use but you must keep the text @1337Research  
