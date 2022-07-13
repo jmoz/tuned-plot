@@ -1,6 +1,6 @@
 # Tuned plot
 
-This script will plot your downloaded Tuned backtest data to a chart with stats, equity curve, monthly returns and
+This script will plot your downloaded <a href="https://app.tuned.com/register?fpr=1337research">Tuned</a> backtest data to a chart with stats, equity curve, monthly returns and
 returns distribution.
 
 Specify the filename with `--file foo.json` and resample the chart using `--resample W`
@@ -42,9 +42,20 @@ Specify the filename
 
 <img src="plots/tuned.json.jpg">
 
+View at https://app.tuned.com/t/1337Research/252657358
+
+<img src="plots/Aggressive%20Shogun-20220626.json.jpg">
+
+View at https://app.tuned.com/t/1337Research/132006123
+
+<img src="plots/Mezzanine-20220626.json.jpg">
+
+View at https://app.tuned.com/t/1337Research/480672698
+
+
 ## About
 
-Visit https://app.tuned.com/t/1337Research/ for profitable systematic trading strategies.
+<a href="https://app.tuned.com/register?fpr=1337research">Create a Tuned account</a> and then visit https://app.tuned.com/t/1337Research/ for profitable systematic trading strategies. 
 
 ## License
 
